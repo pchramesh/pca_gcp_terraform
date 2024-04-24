@@ -1,14 +1,14 @@
 variable "project_id" {
   description = "The project ID"
-  default     = "PROJECT ID HERE"
+  default     = "qwiklabs-gcp-03-8fa5528e6e45"
 }
 
 variable "region" {
   description = "region"
-  default     = "region HERE"
+  default     = "us-west1"
 }
 
 variable "zone" {
   description = "zone"
-  default     = "zone HERE"
+  default     = "us-west1-a"
 }
