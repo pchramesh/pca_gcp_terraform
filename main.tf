@@ -1,10 +1,10 @@
 terraform {
-  required_providers {
-    google = {
-      source = "hashicorp/google"
-      version = "3.5.0"
+    required_providers {
+        google = {
+            source = "hashicorp/google"
+            version = "4.53.0"
+        }
     }
-  }
 }
 
 provider "google" {
@@ -13,6 +13,6 @@ provider "google" {
   zone    = var.zone
 }
 
-module "gce-vm-instances" {
-  source = "./modules/instances/"
+module "instances" {
+  source     = "./modules/instances"
 }
