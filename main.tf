@@ -16,3 +16,5 @@ provider "google" {
 module "instances" {
   source     = "./modules/instances"
 }
+
+//terraform import modules.instances.google_compute_instance.tf_instance_1 6204369395071124465
