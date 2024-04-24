@@ -1,4 +1,4 @@
-resource "google_compute_instance" "tf-instance-1" {
+resource "google_compute_instance" "tf_instance_1" {
   name         = "tf-instance-1"
   machine_type = "e2-micro"
 
@@ -15,7 +15,7 @@ resource "google_compute_instance" "tf-instance-1" {
 allow_stopping_for_update = true
 }
 
-resource "google_compute_instance" "tf-instance-2" {
+resource "google_compute_instance" "tf_instance_2" {
   name         = "tf-instance-2"
   machine_type = "e2-micro"
 
