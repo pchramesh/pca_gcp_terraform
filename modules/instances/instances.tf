@@ -14,10 +14,6 @@ resource "google_compute_instance" "tf-instance-1" {
 
   network_interface {
     network = "default"
-
-    access_config {
-      // Ephemeral public IP
-    }
   }
 
   allow_stopping_for_update = true
@@ -40,10 +36,6 @@ resource "google_compute_instance" "tf-instance-2" {
 
   network_interface {
     network = "default"
-
-    access_config {
-      // Ephemeral public IP
-    }
   }
 
   allow_stopping_for_update = true
